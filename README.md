@@ -1,44 +1,65 @@
+# Ambassador Pro
+
+Ambassador Pro is a set of paid add-on modules to the Ambassador open source API Gateway. The first functionality that will be available in Ambassador Pro is authentication. If you're interested in being an early adopter of Ambassador Pro, contact hello@datawire.io.
+
 ## Installation
 
+Note: Ambassador Pro currently installs as an independent service. In the future, we expect to support a sidecar deployment model.
+
 1. Install Ambassador.
-2. In the `auth.yaml`, configure the `AUTH0_DOMAIN` and `AUTH0_AUDIENCE` environment variables.
-   * AUTH0_DOMAIN example is foo.auth0.com.
+2. Clone this repository; you'll need the YAML configuration.
+   
+   ```
+   git clone https://github.com/datawire/ambassador-pro
+   ```
+
+2. In the `ambassador-pro.yaml`, configure the `AUTH0_DOMAIN` and `AUTH0_AUDIENCE` environment variables based on your Auth0 configuration. (You'll need to create a custom API if you haven't already.)
+   * The AUTH0_DOMAIN is your Auth0 domain, e.g., foo.auth0.com.
    * AUTH0_AUDIENCE is listed on the API page https://manage.auth0.com/#/apis
-   * Configure the `namespace` fields appropriately.
-3. Deploy the authentication service: `kubectl apply -f auth.yaml`.
+   * Configure the `namespace` field appropriately for the `ClusterRoleBinding`, and is the namespace where your Ambassador and Ambassador Pro service is deployed.
+3. Deploy the authentication service: `kubectl apply -f ambassador-pro.yaml`.
 4. Create the policy CRD: `kubectl apply -f policy-crd.yaml`.
 
 ## Quick Start / Example
 
-Authentication policies are managed using the policy CRD. ** Note: The policy CRD is in alpha state, and the schema and fields are subject to change.**
+Authentication policies are managed using the `policy` CRD. Note that this CRD is in alpha state, and the schema is *subject to change*.
 
-In this quick start, we'll create a dummy service and manage access to the service.
+In this quick start, we'll create a route to the public httpbin.org service and manage access to the service.
 
-1. Deploy the `backend` service: `kubectl apply -f backend.yaml`.
-2. Deploy the example policy: `kubectl apply -f example-policy.yaml`.
-3. Test public access to the backend service:
-
-   ```
-   curl http://$AMBASSADOR_IP/backend/public/
-   ```
-
-   You should get a bunch of JSON.
-
-4. Test a private URL:
+1. Deploy the `httpbin` service: `kubectl apply -f httpbin.yaml`.
+2. Verify that the httpbin service works correctly, e.g,
 
    ```
-   curl http://$AMBASSADOR_IP/backend/private/
+   $ curl http://$AMBASSADOR_IP/httpbin/ip
+   {
+    "origin": "35.205.31.151"
+   }
+   $ curl http://$AMBASSADOR_IP/httpbin/user-agent
+   {
+    "user-agent": "curl/7.54.0"
+   }
    ```
 
-   You should get `{"message":"unauthorized"}`.
+3. Deploy the sample security policy: `kubectl apply -f httpbin-policy.yaml`. This policies gives public access to `/httpbin/ip` but restricts access to `/httpbin/user-agent`.
+4. Test this out:
+
+   ```
+   $ curl http://$AMBASSADOR_IP/httpbin/ip
+   {
+    "origin": "35.205.31.151"
+   }
+   $ curl http://$AMBASSADOR_IP/httpbin/user-agent
+   {"message":"unauthorized"}
+   ```
 
 5. Get a JWT from Auth0. To do this, click on APIs, then the custom API you're using for the Ambassador Authentication service, and then the Test tab.
 
    ```
-   curl --header 'authorization: Bearer eyeJdfasdf...' http://$AMBASSADOR_IP/backend/private/
+   $ curl --header 'authorization: Bearer eyeJdfasdf...' http://$AMBASSADOR_IP/httpbin/user-agent
+   {
+     "user-agent": "curl/7.54.0"
+   }
    ```
-  
-   This should return a bunch of JSON again.
 
 ## Configuration
 
@@ -57,22 +78,19 @@ The following is a complete example of a policy:
 apiVersion: stable.datawire.io/v1beta1
 kind: Policy
 metadata:
-  name: example-policy
+  name: httpbin-policy
 spec:
-  # everything defaults to private, you can create rules to make stuff
+  # everything defaults to private; you can create rules to make stuff
   # public, and you can create rules to require additional scopes
   # which will be automatically checked
   rules:
    - host: "*"
-     path: /backend/public/*
+     path: /httpbin/ip
      public: true
    - host: "*"
-     path: /
-     public: true
-   - host: "*"
-     path: /backend/private/*
+     path: /httpbin/user-agent/*
      public: false
    - host: "*"
-     path: /backend/private-scoped/*
-     scopes: admin
+     path: /httpbin/headers/*
+     scopes: "read:test"
 ```
