@@ -13,12 +13,18 @@ Note: Ambassador Pro currently installs as an independent service. In the future
    git clone https://github.com/datawire/ambassador-pro
    ```
 
-2. In the `ambassador-pro.yaml`, configure the `AUTH0_DOMAIN` and `AUTH0_AUDIENCE` environment variables based on your Auth0 configuration. (You'll need to create a custom API if you haven't already.)
-   * The AUTH0_DOMAIN is your Auth0 domain, e.g., foo.auth0.com.
-   * AUTH0_AUDIENCE is listed on the API page https://manage.auth0.com/#/apis
+2. In the `ambassador-pro.yaml`, configure the `AUTH_CALLBACK_URL`, `AUTH_DOMAIN`, `AUTH_AUDIENCE` and `AUTH_CLIENT_ID` environment variables based on your Auth0 configuration. (You'll need to create a custom API if you haven't already.)
+   * The AUTH_DOMAIN is your Auth0 domain, e.g., foo.auth0.com.
+   * AUTH_AUDIENCE is listed on the API page https://manage.auth0.com/#/apis
+   * AUTH_CALLBACK_URL is the URL where you want to send users once they've authenticated.
+   * AUTH_CLIENT_ID is the client ID of your application. 
    * Configure the `namespace` field appropriately for the `ClusterRoleBinding`, and is the namespace where your Ambassador and Ambassador Pro service is deployed.
-3. Deploy the authentication service: `kubectl apply -f ambassador-pro.yaml`.
-4. Create the policy CRD: `kubectl apply -f policy-crd.yaml`.
+3. Verify your Auth0 application:
+   * Set Token Endpoint Authentication method to `None`
+   * Add the value of AUTH_CALLBACK_URL above to the Allowed Callback URLs section
+   * Add your domain to the Allowed Web Origins section
+4. Deploy the authentication service: `kubectl apply -f ambassador-pro.yaml`.
+5. Create the policy CRD: `kubectl apply -f policy-crd.yaml`.
 
 ## Quick Start / Example
 
@@ -52,7 +58,7 @@ In this quick start, we'll create a route to the public httpbin.org service and 
    {"message":"unauthorized"}
    ```
 
-5. Get a JWT from Auth0. To do this, click on APIs, then the custom API you're using for the Ambassador Authentication service, and then the Test tab.
+5. Get a JWT from Auth0. To do this, click on APIs, then the custom API you're using for the Ambassador Authentication service, and then the Test tab. Pass the JWT in the `authorization: Bearer` HTTP header:
 
    ```
    $ curl --header 'authorization: Bearer eyeJdfasdf...' http://$AMBASSADOR_IP/httpbin/user-agent
@@ -70,7 +76,7 @@ Ambassador Authentication supports creating arbitrary rules for authentication. 
 | `host`    | "*", "foo.com" | the Host that a given rule should match |
 | `path`    | "/foo/url/"    | the URL path that a given rule should match to |
 | `public`  | true           | a boolean that indicates whether or not authentication is required; default false |
-| `scopes`  | "read:contacts" | the rights that need to be granted in a given API |
+| `scopes`  | "read:test" | the rights that need to be granted in a given API |
 
 The following is a complete example of a policy:
 
@@ -94,3 +100,8 @@ spec:
      path: /httpbin/headers/*
      scopes: "read:test"
 ```
+
+
+
+Set callback URL in applications/allowed callback URLs
+

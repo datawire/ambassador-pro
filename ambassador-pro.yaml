@@ -57,6 +57,9 @@ metadata:
   name: ambassador-pro
 spec:
   replicas: 1
+  selector:
+    matchLabels:
+      name: ambassador-pro
   template:
     metadata:
       labels:
@@ -65,11 +68,15 @@ spec:
       serviceAccountName: ambassador-pro
       containers:
       - name: ambassador-pro
-        image: quay.io/datawire/ambassador-pro:0.1
+        image: quay.io/datawire/ambassador-pro:0.2
         ports:
         - containerPort: 8080
         env:
-          - name: AUTH0_DOMAIN
+          - name: AUTH_CALLBACK_URL
+            value: http://35.239.47.201/callback
+          - name: AUTH_DOMAIN
             value: thelis.auth0.com
-          - name: AUTH0_AUDIENCE
-            value: friends
+          - name: AUTH_AUDIENCE
+            value: https://thelis.auth0.com/api/v2/
+          - name: AUTH_CLIENT_ID
+            value: Z6m3lwCot6GaThT4L142nkOKNPeDe87n
