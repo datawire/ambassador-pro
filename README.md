@@ -55,10 +55,14 @@ In this quick start, we'll create a route to the public httpbin.org service and 
     "origin": "35.205.31.151"
    }
    $ curl http://$AMBASSADOR_IP/httpbin/user-agent
-   {"message":"unauthorized"}
+   <a href="https://xxx.auth0.com/authorize?audience=https://xxx.auth0.com/api/v2/&amp;response_type=code&amp;redirect_uri=http://35.226.13.0/callback&amp;client_id=Z6m3lwCot6GaThT4L142nkOKNPeDe87n&amp;state=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE1MzY2OTQ2MjglhdCI6MUzNjY5NDMyOCwianRpIjoiN2FjOThjZTQtYjdjZi00NTU3LTlkYTEtZGJjNzZjYzNjZjg4IiwibmJmIjowLCJwYXRoIjoiL2h0dHBiaW4vdXNi1hZ2VudCJ9.NtBA5deqPn5XI7vonca4tpgYNrM-212TiQhTZ_KzWos&amp;scope=offline_access openid profile">See Other</a>
    ```
 
-5. Get a JWT from Auth0. To do this, click on APIs, then the custom API you're using for the Ambassador Authentication service, and then the Test tab. Pass the JWT in the `authorization: Bearer` HTTP header:
+5. In your browser, visit http://$AMBASSADOR_IP/httpbin/ip, and see the IP address.
+
+6. In your browser, visit http://$AMBASSADOR_IP/httpbin/user-agent. You'll be redirected to a log in page. Authenticate, and you should be able to get the user-agent.
+
+7. If you want to test with a JWT, you can get a JWT from Auth0. To do this, click on APIs, then the custom API you're using for the Ambassador Authentication service, and then the Test tab. Pass the JWT in the `authorization: Bearer` HTTP header:
 
    ```
    $ curl --header 'authorization: Bearer eyeJdfasdf...' http://$AMBASSADOR_IP/httpbin/user-agent
@@ -100,8 +104,3 @@ spec:
      path: /httpbin/headers/*
      scopes: "read:test"
 ```
-
-
-
-Set callback URL in applications/allowed callback URLs
-
