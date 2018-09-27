@@ -2,7 +2,7 @@
 
 Ambassador Pro is a set of paid add-on modules to the Ambassador open source API Gateway. The first functionality that will be available in Ambassador Pro is authentication. If you're interested in being an early adopter of Ambassador Pro, contact hello@datawire.io.
 
-## Installation
+## Installation for Code Exchange Mode (no secret required)
 
 Note: Ambassador Pro currently installs as an independent service. In the future, we expect to support a sidecar deployment model.
 
@@ -13,18 +13,58 @@ Note: Ambassador Pro currently installs as an independent service. In the future
    git clone https://github.com/datawire/ambassador-pro
    ```
 
-2. In the `ambassador-pro.yaml`, configure the `AUTH_CALLBACK_URL`, `AUTH_DOMAIN`, `AUTH_AUDIENCE` and `AUTH_CLIENT_ID` environment variables based on your Auth0 configuration. (You'll need to create a custom API if you haven't already.)
+3. In the `ambassador-pro.yaml`, configure the `AUTH_CALLBACK_URL`, `AUTH_DOMAIN`, `AUTH_AUDIENCE` and `AUTH_CLIENT_ID` environment variables based on your Auth0 configuration. (You'll need to create a custom API if you haven't already.)
    * The AUTH_DOMAIN is your Auth0 domain, e.g., foo.auth0.com.
    * AUTH_AUDIENCE is listed on the API page https://manage.auth0.com/#/apis
    * AUTH_CALLBACK_URL is the URL where you want to send users once they've authenticated.
    * AUTH_CLIENT_ID is the client ID of your application. 
    * Configure the `namespace` field appropriately for the `ClusterRoleBinding`, and is the namespace where your Ambassador and Ambassador Pro service is deployed.
-3. Verify your Auth0 application:
+4. Verify your Auth0 application:
    * Set Token Endpoint Authentication method to `None`
    * Add the value of AUTH_CALLBACK_URL above to the Allowed Callback URLs section
    * Add your domain to the Allowed Web Origins section
-4. Deploy the authentication service: `kubectl apply -f ambassador-pro.yaml`.
-5. Create the policy CRD: `kubectl apply -f policy-crd.yaml`.
+5. Deploy the authentication service: `kubectl apply -f ambassador-pro.yaml`.
+6. Create the policy CRD: `kubectl apply -f policy-crd.yaml`.
+
+## Installation for Client Credentials Mode (secret required)
+
+Note: When `ambassador-pro.yaml` is deployed with the `AUTH_CLIENT_SECRET` environment variable, it will allow the app to talk directly to identity provider via the management api.
+
+* Pros:
+  * Facilitates the deployment by providing config validation on the start up.
+  * No need for coding exchange even though it's still recommended to do.
+
+* Cons:
+  * The secret is in the manifest which makes it less secure.
+  * In case of secret rotation, the app will need to be reconfigured. 
+  * Extra setup is needed in the identity provider.
+
+1. Install Ambassador.
+2. Clone this repository; you'll need the YAML configuration.
+   
+   ```
+   git clone https://github.com/datawire/ambassador-pro
+   ```
+
+3. In the `ambassador-pro.yaml`, configure the `AUTH_CALLBACK_URL`, `AUTH_DOMAIN`, `AUTH_AUDIENCE`, `AUTH_CLIENT_ID` and `AUTH_CLIENT_SECRET` environment variables based on your Auth0 configuration. (You'll need to create a custom API if you haven't already.)
+   * The AUTH_DOMAIN is your Auth0 domain, e.g., foo.auth0.com.
+   * AUTH_AUDIENCE is listed on the API page https://manage.auth0.com/#/apis
+   * AUTH_CALLBACK_URL is the URL where you want to send users once they've authenticated.
+   * AUTH_CLIENT_ID is the client ID of your application.
+   * AUTH_CLIENT_SECRET is the client secret of your application. 
+   * Configure the `namespace` field appropriately for the `ClusterRoleBinding`, and is the namespace where your Ambassador and Ambassador Pro service is deployed.
+4. Verify your Auth0 application:
+   * Set Token Endpoint Authentication method to `POST`
+   * App is authorized to access Auth0 management api (APIs/Machine to Machine Applications) and following scopes have been granted:
+      * read:clients
+      * read:grants
+   * App is set with the following grant types (Applications/Advanced Settings/Grant Types):
+      * Authorization Code
+      * Client Credentials   
+   * Add the value of AUTH_CALLBACK_URL above to the Allowed Callback URLs section
+   * Add your domain to the Allowed Web Origins section
+5. Deploy the authentication service: `kubectl apply -f ambassador-pro.yaml`.
+6. Create the policy CRD: `kubectl apply -f policy-crd.yaml`.
 
 ## Quick Start / Example
 
