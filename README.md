@@ -2,7 +2,7 @@
 
 Ambassador Pro is a set of paid add-on modules to the Ambassador open source API Gateway. The first functionality that will be available in Ambassador Pro is authentication. If you're interested in being an early adopter of Ambassador Pro, contact hello@datawire.io.
 
-## Installation for Code Exchange Mode (no secret required)
+## Default installation
 
 Note: Ambassador Pro currently installs as an independent service. In the future, we expect to support a sidecar deployment model.
 
@@ -26,18 +26,9 @@ Note: Ambassador Pro currently installs as an independent service. In the future
 5. Deploy the authentication service: `kubectl apply -f ambassador-pro.yaml`.
 6. Create the policy CRD: `kubectl apply -f policy-crd.yaml`.
 
-## Installation for Client Credentials Mode (secret required)
+## Installation for validation mode (secret required)
 
-Note: When `ambassador-pro.yaml` is deployed with the `AUTH_CLIENT_SECRET` environment variable, it will allow the app to talk directly to identity provider via the management api.
-
-* Pros:
-  * Facilitates the deployment by providing config validation on the start up.
-  * No need for coding exchange even though it's still recommended to do.
-
-* Cons:
-  * The secret is in the manifest which makes it less secure.
-  * In case of secret rotation, the app will need to be reconfigured. 
-  * Extra setup is needed in the identity provider.
+When deployed in validation mode, Ambassador Pro will validate configuration via the Auth0 management API. In the future, we may add more automatic configuration via the management API. Note that this mode requires the client secret in the manifest, which may present a security issue for some organizations.
 
 1. Install Ambassador.
 2. Clone this repository; you'll need the YAML configuration.
