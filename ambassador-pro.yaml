@@ -80,3 +80,7 @@ spec:
             value: audience
           - name: AUTH_CLIENT_ID
             value: id
+          # Uncomment it only if AUTH_CALLBACK_URL is not secure.
+          # - name: APP_SECURE
+          #   value: not_secure
+          
