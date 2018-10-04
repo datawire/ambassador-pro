@@ -16,8 +16,8 @@ Note: Ambassador Pro currently installs as an independent service. In the future
 3. In the `ambassador-pro.yaml`, configure the `AUTH_CALLBACK_URL`, `AUTH_DOMAIN`, `AUTH_AUDIENCE` and `AUTH_CLIENT_ID` environment variables based on your Auth0 configuration. (You'll need to create a custom API if you haven't already.)
    * The AUTH_DOMAIN is your Auth0 domain, e.g., foo.auth0.com.
    * AUTH_AUDIENCE is listed on the API page https://manage.auth0.com/#/apis
-   * AUTH_CALLBACK_URL is the URL where you want to send users once they've authenticated.
-   * AUTH_CLIENT_ID is the client ID of your application. 
+   * AUTH_CALLBACK_URL is the URL where you want to send users once they've authenticated. If the callback url is not secure, you will need to another environment variable `APP_SECURE=not_secure`.
+   * AUTH_CLIENT_ID is the client ID of your application.
    * Configure the `namespace` field appropriately for the `ClusterRoleBinding`, and is the namespace where your Ambassador and Ambassador Pro service is deployed.
 4. Verify your Auth0 application:
    * Set Token Endpoint Authentication method to `None`
