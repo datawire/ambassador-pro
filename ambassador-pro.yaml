@@ -73,10 +73,10 @@ spec:
         - containerPort: 8080
         env:
           - name: AUTH_CALLBACK_URL
-            value: http://35.239.47.201/callback
+            value: https://example.com/callback
           - name: AUTH_DOMAIN
-            value: thelis.auth0.com
+            value: example.auth0.com
           - name: AUTH_AUDIENCE
-            value: https://thelis.auth0.com/api/v2/
+            value: audience
           - name: AUTH_CLIENT_ID
-            value: Z6m3lwCot6GaThT4L142nkOKNPeDe87n
+            value: id
