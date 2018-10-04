@@ -83,4 +83,3 @@ spec:
           # Uncomment it only if AUTH_CALLBACK_URL is not secure.
           # - name: APP_SECURE
           #   value: not_secure
-          
