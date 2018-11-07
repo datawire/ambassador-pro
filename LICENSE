@@ -1,122 +1,437 @@
 DATAWIRE END USER LICENSE AGREEMENT
 
-Please read this End User License Agreement (the “Agreement”) before using Ambassador Pro (“Licensed Software”).  By using the Licensed Software, you are agreeing to be bound by the terms and conditions of this Agreement.
+Please read this End User License Agreement (the “Agreement”) before
+using Ambassador Pro (“Licensed Software”).  By using the Licensed
+Software, you are agreeing to be bound by the terms and conditions of
+this Agreement.
 
-This Agreement is between you and Datawire, Inc., a Delaware corporation with its principal place of business at 745 Atlantic Avenue, Boston, Massachusetts 02111 (“Datawire”) and is effective as of the date you use the Licensed Software (the applicable date, the “Effective Date”).  This Agreement establishes the terms under which Datawire will license the Licensed Software to you.
+This Agreement is between you and Datawire, Inc., a Delaware
+corporation with its principal place of business at 745 Atlantic
+Avenue, Boston, Massachusetts 02111 (“Datawire”) and is effective as
+of the date you use the Licensed Software (the applicable date, the
+“Effective Date”).  This Agreement establishes the terms under which
+Datawire will license the Licensed Software to you.
 
-By accessing, executing, or otherwise using the Licensed Software, you acknowledge that you have read this Agreement, understand it, and agree to be bound by its terms and conditions. If you are not willing to be bound by the terms of this Agreement, do not access or use the Licensed Software.
+By accessing, executing, or otherwise using the Licensed Software, you
+acknowledge that you have read this Agreement, understand it, and
+agree to be bound by its terms and conditions. If you are not willing
+to be bound by the terms of this Agreement, do not access or use the
+Licensed Software.
 
-If you are using the Licensed Software in your capacity as employee or agent of a company or organization, then any references to “you” in this agreement shall refer to such entity and not to you in your personal capacity. You warrant that you are authorized to legally bind the company or organization on whose behalf you are accessing the Software.  If you are not so authorized, then neither you nor your company or organization may use the Software in any manner whatsoever.
+If you are using the Licensed Software in your capacity as employee or
+agent of a company or organization, then any references to “you” in
+this agreement shall refer to such entity and not to you in your
+personal capacity. You warrant that you are authorized to legally bind
+the company or organization on whose behalf you are accessing the
+Software.  If you are not so authorized, then neither you nor your
+company or organization may use the Software in any manner whatsoever.
 
 1.	Free Trial
 
-If you either register on the Ambassador web site for a free trial or otherwise order a free trial version, Datawire will make certain Licensed Software available to you on a trial basis (the “Trial Version”) free of charge until the end of the free trial period for which you registered or ordered the applicable Licensed Software. The Trial Version may be used only to review, demonstrate and evaluate the Licensed Software and may have limited features. The Trial Version may cease operating after the applicable time period or number of uses based on an internal metering mechanism within the Trial Version itself. Regardless of any such metering, you must stop use at the end of such period or number of uses.  Additional trial terms and conditions may appear on the trial registration web page or Order Form. Any such additional terms and conditions are incorporated into this Agreement by reference and are legally binding. 
+If you either register on the Ambassador web site for a free trial or
+otherwise order a free trial version, Datawire will make certain
+Licensed Software available to you on a trial basis (the “Trial
+Version”) free of charge until the end of the free trial period for
+which you registered or ordered the applicable Licensed Software. The
+Trial Version may be used only to review, demonstrate and evaluate the
+Licensed Software and may have limited features. The Trial Version may
+cease operating after the applicable time period or number of uses
+based on an internal metering mechanism within the Trial Version
+itself. Regardless of any such metering, you must stop use at the end
+of such period or number of uses.  Additional trial terms and
+conditions may appear on the trial registration web page or Order
+Form. Any such additional terms and conditions are incorporated into
+this Agreement by reference and are legally binding.
 
 2.	Grant of License; Ownership. 
 
-2.1	License Grant.  Subject to the terms and conditions of this Agreement and Order Form, Datawire hereby:
+2.1 License Grant.  Subject to the terms and conditions of this
+Agreement and Order Form, Datawire hereby:
 
-(i)	grants to the Licensee a limited, non-exclusive, non-transferable, license to use the Licensed Software and solely for its internal business purposes for use by End Users and for the term and in accordance with the conditions and limitations set forth in the Order Form.  
+(i) grants to the Licensee a limited, non-exclusive, non-transferable,
+license to use the Licensed Software and solely for its internal
+business purposes for use by End Users and for the term and in
+accordance with the conditions and limitations set forth in the Order
+Form.
 
-(ii)	To the extent that there is any third party software (i.e., software licensed by Datawire from a third party entity and embedded in, bundled with or otherwise provided to End Users under this License Agreement as part of or in connection with the Licensed Program Materials) (“Third Party Software”) is embedded in, bundled with, or otherwise provided to End Users in connection with the Licensed Program Materials under this License Agreement, such third party software shall be considered Licensed Software and such third party software shall be used and operated solely with the operation of the Licensed Program Materials and not as a standalone application or any other purpose.  Certain Third Party Software may be subject to an open source license, which when required by such license is included with the Documentation (“OSS License”). Licensee’s license rights with respect to Third Party Software subject to an OSS License are defined by the terms of the applicable OSS License; nothing in this Agreement shall restrict, limit, or otherwise affect any rights or obligations Licensee may have, or conditions to which Licensee may be subject, under such OSS License. The foregoing includes, without limitation, the Apache License, Version 2.0 found at: http://www.apache.org/licenses/LICENSE-2.0 (the “Apache License”).
+(ii) To the extent that there is any third party software (i.e.,
+software licensed by Datawire from a third party entity and embedded
+in, bundled with or otherwise provided to End Users under this License
+Agreement as part of or in connection with the Licensed Program
+Materials) (“Third Party Software”) is embedded in, bundled with, or
+otherwise provided to End Users in connection with the Licensed
+Program Materials under this License Agreement, such third party
+software shall be considered Licensed Software and such third party
+software shall be used and operated solely with the operation of the
+Licensed Program Materials and not as a standalone application or any
+other purpose.  Certain Third Party Software may be subject to an open
+source license, which when required by such license is included with
+the Documentation (“OSS License”). Licensee’s license rights with
+respect to Third Party Software subject to an OSS License are defined
+by the terms of the applicable OSS License; nothing in this Agreement
+shall restrict, limit, or otherwise affect any rights or obligations
+Licensee may have, or conditions to which Licensee may be subject,
+under such OSS License. The foregoing includes, without limitation,
+the Apache License, Version 2.0 found at:
+http://www.apache.org/licenses/LICENSE-2.0 (the “Apache License”).
 
-2.2	Ownership. As between the parties, Datawire retains all right, title and interest in the Licensed Program Materials, including but not limited to any and all Intellectual Property Rights in the Licensed Program Materials now owned or that may be owned in the future by Datawire.
+2.2 Ownership. As between the parties, Datawire retains all right,
+title and interest in the Licensed Program Materials, including but
+not limited to any and all Intellectual Property Rights in the
+Licensed Program Materials now owned or that may be owned in the
+future by Datawire.
 
-2.3	Restrictions.  Licensee shall not distribute, display, sublicense, rent, lease, use in a service bureau, modify, translate, reverse engineer, decompile, disassemble, create derivative works based on, or copy the Licensed Program Materials, except to the extent expressly permitted by applicable law, and only to the extent Datawire shall not be permitted by that applicable law to exclude or limit such rights.  
+2.3 Restrictions.  Licensee shall not distribute, display, sublicense,
+rent, lease, use in a service bureau, modify, translate, reverse
+engineer, decompile, disassemble, create derivative works based on, or
+copy the Licensed Program Materials, except to the extent expressly
+permitted by applicable law, and only to the extent Datawire shall not
+be permitted by that applicable law to exclude or limit such rights.
 
-2.4	Proprietary Markings.  Licensee shall not remove or alter any Intellectual Property Right notices or other proprietary markings on the Licensed Program Materials or copies thereof, including without limitation, any trademarks, trade names, trade dress, service marks, logos or other similar branding material or any copyright notices from the footer, navigation bar, login, or any other place in the Licensed Program Materials.  Licensee shall not place any of its Intellectual Property Right notices, including limitation, any trademarks, trade names, trade dress, service marks, logos or other branding material of Licensee on the Licensed Program Materials except with Datawire’s express prior written consent. 
+2.4 Proprietary Markings.  Licensee shall not remove or alter any
+Intellectual Property Right notices or other proprietary markings on
+the Licensed Program Materials or copies thereof, including without
+limitation, any trademarks, trade names, trade dress, service marks,
+logos or other similar branding material or any copyright notices from
+the footer, navigation bar, login, or any other place in the Licensed
+Program Materials.  Licensee shall not place any of its Intellectual
+Property Right notices, including limitation, any trademarks, trade
+names, trade dress, service marks, logos or other branding material of
+Licensee on the Licensed Program Materials except with Datawire’s
+express prior written consent.
 
-2.5	Export or Re-export.  Licensee may not use or otherwise export or re-export the Licensed Program Materials except as authorized by United States law and the laws of the jurisdiction in which the Licensed Program Materials obtained. In particular, but without limitation, the Licensed Program Materials may not be exported or re-exported (a) into any U.S.-embargoed countries or (b) to anyone on the U.S. Treasury Department’s Specially Designated Nationals List or the U.S. Department of Commerce Denied Persons List or Entity List. By using the Licensed Program Materials, Licensee represents and warrants that it is not located in any such country or on any such list. Licensee also agree that it will not use these products for any purposes prohibited by United States law, including, without limitation, the development, design, manufacture, or production of nuclear, missile, or chemical or biological weapons.
+2.5 Export or Re-export.  Licensee may not use or otherwise export or
+re-export the Licensed Program Materials except as authorized by
+United States law and the laws of the jurisdiction in which the
+Licensed Program Materials obtained. In particular, but without
+limitation, the Licensed Program Materials may not be exported or
+re-exported (a) into any U.S.-embargoed countries or (b) to anyone on
+the U.S. Treasury Department’s Specially Designated Nationals List or
+the U.S. Department of Commerce Denied Persons List or Entity List. By
+using the Licensed Program Materials, Licensee represents and warrants
+that it is not located in any such country or on any such
+list. Licensee also agree that it will not use these products for any
+purposes prohibited by United States law, including, without
+limitation, the development, design, manufacture, or production of
+nuclear, missile, or chemical or biological weapons.
 
-2.6	For US Government End Users.  The Licensed Program Materials are “Commercial Items”, as that term is defined at 48 C.F.R. §2.101, consisting of “Commercial Computer Software” and “Commercial Computer Software Documentation”, as such terms are used in 48 C.F.R. §12.212 or 48 C.F.R. §227.7202, as applicable. Consistent with 48 C.F.R. §12.212 or 48 C.F.R. §227.7202-1 through 227.7202-4, as applicable, the Commercial Computer Software and Commercial Computer Software Documentation are being licensed to U.S. Government end users (a) only as Commercial Items and (b) with only those rights as are granted to all other end users pursuant to the terms and conditions herein. Unpublished-rights reserved under the copyright laws of the United States.
+2.6 For US Government End Users.  The Licensed Program Materials are
+“Commercial Items”, as that term is defined at 48 C.F.R. §2.101,
+consisting of “Commercial Computer Software” and “Commercial Computer
+Software Documentation”, as such terms are used in 48 C.F.R. §12.212
+or 48 C.F.R. §227.7202, as applicable. Consistent with 48
+C.F.R. §12.212 or 48 C.F.R. §227.7202-1 through 227.7202-4, as
+applicable, the Commercial Computer Software and Commercial Computer
+Software Documentation are being licensed to U.S. Government end users
+(a) only as Commercial Items and (b) with only those rights as are
+granted to all other end users pursuant to the terms and conditions
+herein. Unpublished-rights reserved under the copyright laws of the
+United States.
 
-2.7	Compliance with Laws.  The Licensee will not use the Licensed Program Materials for any unlawful purpose or in breach of any laws.  Such unlawful purposes or breaches include, without limitation, civil and criminal offenses of copyright and trademark infringement, commission of any criminal offense, and any transmission or publication of any material which is defamatory, offensive, abusive or menacing character to any other person.
+2.7 Compliance with Laws.  The Licensee will not use the Licensed
+Program Materials for any unlawful purpose or in breach of any laws.
+Such unlawful purposes or breaches include, without limitation, civil
+and criminal offenses of copyright and trademark infringement,
+commission of any criminal offense, and any transmission or
+publication of any material which is defamatory, offensive, abusive or
+menacing character to any other person.
 
-3.	Services. Any software support services will be governed by a separate Software Support Services Agreement entered into between you and Datawire (the “Support Agreement”).  
+3. Services. Any software support services will be governed by a
+separate Software Support Services Agreement entered into between you
+and Datawire (the “Support Agreement”).
 
-4.	Payment of Fees and Expenses; Taxes and Audit.
+4. Payment of Fees and Expenses; Taxes and Audit.
 
-4.1	Fees and Expenses.  Licensee shall pay Datawire all fees and expenses in accordance with the applicable Order Forms to this Agreement within thirty (30) days of receipt of invoice.  All payments due and payable hereunder shall be made in U.S. dollars and shall be non-refundable and non-cancelable.  Licensee shall reimburse Datawire for reasonable travel and other reasonable out-of-pocket expenses incurred. 
+4.1 Fees and Expenses.  Licensee shall pay Datawire all fees and
+expenses in accordance with the applicable Order Forms to this
+Agreement within thirty (30) days of receipt of invoice.  All payments
+due and payable hereunder shall be made in U.S. dollars and shall be
+non-refundable and non-cancelable.  Licensee shall reimburse Datawire
+for reasonable travel and other reasonable out-of-pocket expenses
+incurred.
 
-4.2	Late Payments. Any payment not received by the due date shall bear interest at one and one half percent (1.5%) per month, commencing as of the due date until fully paid plus any reasonable attorney’s fees, expenses and related costs collection.  If Licensee fails to make its payments in accordance with this Agreement, Datawire may, upon written notice, require assurances to secure payment hereunder, and may suspend or terminate the provision of some or all of the services to Licensee.
+4.2 Late Payments. Any payment not received by the due date shall bear
+interest at one and one half percent (1.5%) per month, commencing as
+of the due date until fully paid plus any reasonable attorney’s fees,
+expenses and related costs collection.  If Licensee fails to make its
+payments in accordance with this Agreement, Datawire may, upon written
+notice, require assurances to secure payment hereunder, and may
+suspend or terminate the provision of some or all of the services to
+Licensee.
 
-4.3	Taxes.  Licensee is responsible for the payment of all taxes (except for taxes based on Datawire’s net income) which may be levied or assessed in connection with this Agreement. 
+4.3 Taxes.  Licensee is responsible for the payment of all taxes
+(except for taxes based on Datawire’s net income) which may be levied
+or assessed in connection with this Agreement.
 
-4.4	Audit.  To confirm Licensee’s compliance with the terms of this Agreement, Datawire shall have the right, at its expense, upon reasonable notice and during normal business hours to conduct audits of Licensee’s use and deployment of the Licensed Program Materials.  
+4.4 Audit.  To confirm Licensee’s compliance with the terms of this
+Agreement, Datawire shall have the right, at its expense, upon
+reasonable notice and during normal business hours to conduct audits
+of Licensee’s use and deployment of the Licensed Program Materials.
 
 5.	Termination.
 
-5.1	Term.  This Agreement will automatically terminate upon the expiration of the Term set forth in the Order Form.
+5.1 Term.  This Agreement will automatically terminate upon the
+expiration of the Term set forth in the Order Form.
 
-5.2	Termination for Breach.  Either party shall have the right to terminate this Agreement if the other party should materially breach any of the provisions of this Agreement and fails to cure within ten (10) days of written notice to the breaching party. 
+5.2 Termination for Breach.  Either party shall have the right to
+terminate this Agreement if the other party should materially breach
+any of the provisions of this Agreement and fails to cure within ten
+(10) days of written notice to the breaching party.
 
-5.3	Consequences of Termination/Expiration.  On any termination or expiration of this Agreement for Licensee breach of Section 1, Licensee shall promptly: (i) discontinue all use of the Licensed Program Materials; (ii) return or destroy any Licensed Program Materials; (iii) return to Datawire all Confidential Information; and (iv) certify in writing to Datawire, within thirty (30) days of termination of this Agreement, that Licensee has complied with the foregoing. 
+5.3 Consequences of Termination/Expiration.  On any termination or
+expiration of this Agreement for Licensee breach of Section 1,
+Licensee shall promptly: (i) discontinue all use of the Licensed
+Program Materials; (ii) return or destroy any Licensed Program
+Materials; (iii) return to Datawire all Confidential Information; and
+(iv) certify in writing to Datawire, within thirty (30) days of
+termination of this Agreement, that Licensee has complied with the
+foregoing.
 
-5.4	Survival.  Sections 1.2 (Ownership), 1.3 (Restrictions), 1.4 (Proprietary Markings), 3 (Payment of Fees and Expenses; Taxes and Audit); 5.3 (Consequences), 5.4 (Survival), 6 (Warranty Disclaimer); 7 (Confidentiality), 8 (Limitation of Liability), and 9 (General), hereof shall survive any termination of this Agreement. 
+5.4 Survival.  Sections 2.2 (Ownership), 2.3 (Restrictions), 2.4
+(Proprietary Markings), 4 (Payment of Fees and Expenses; Taxes and
+Audit); 5.3 (Consequences), 5.4 (Survival), 6 (Warranty Disclaimer); 7
+(Confidentiality), 8 (Limitation of Liability), and 9 (General),
+hereof shall survive any termination of this Agreement.
 
-6.	Warranty Disclaimer.  Datawire does not warrant that the Licensed Program will meet Licensee’s requirements or that its use will be uninterrupted or error free.  Datawire provides the Software distributed under this Agreement on an “AS IS” BASIS WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied, including, without limitation, any warranties or conditions of TITLE, NON-INFRINGEMENT, MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  You are solely responsible for determining the appropriateness of using the Software. 
+6. Warranty Disclaimer.  Datawire does not warrant that the Licensed
+Program will meet Licensee’s requirements or that its use will be
+uninterrupted or error free.  Datawire provides the Software
+distributed under this Agreement on an “AS IS” BASIS WITHOUT
+WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied,
+including, without limitation, any warranties or conditions of TITLE,
+NON-INFRINGEMENT, MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
+You are solely responsible for determining the appropriateness of
+using the Software.
 
 7.	Confidentiality.
 
-7.1	General.  Each party acknowledges that in the course of this Agreement it has been and shall be entrusted with certain Confidential Information of the other and agrees that it shall use reasonable care to protect the confidentiality thereof, using at least the same measures it would use to protect its own similar, highly confidential information and shall not (a) use such Confidential Information for any purpose except the performance of this Agreement, or (b) disclose any such Confidential Information to any person (except employees or agents on a need-to-know basis where such persons have agreed to be bound in writing to obligations of confidentiality at least as protective as the terms of this Section 7), unless such disclosure is authorized by the other party in writing, or (c) disclose any such Confidential Information required by court or judicial order without first informing the other party and cooperating with such other party if such other party shall contest such disclosure or seek a protective order.  The obligations of each party under this Section 7 shall not apply to information which (i) was generally known in the trade or business in which it is practiced by the receiving party at the time of disclosure, or becomes so generally known after such disclosure, through no act of the receiving party and otherwise than as a result of a breach of this Section; (ii) has come into the possession of the receiving party rightfully from a third party without obligation of confidentiality; (iii) was developed by the receiving party independently of and without reference to Confidential Information; or (iv) is disclosed pursuant to any legal, judicial or arbitration or similar legal proceeding or as required by law; provided that the receiving party disclosing such information uses all reasonable efforts to protect the information as being confidential.  
+7.1 General.  Each party acknowledges that in the course of this
+Agreement it has been and shall be entrusted with certain Confidential
+Information of the other and agrees that it shall use reasonable care
+to protect the confidentiality thereof, using at least the same
+measures it would use to protect its own similar, highly confidential
+information and shall not (a) use such Confidential Information for
+any purpose except the performance of this Agreement, or (b) disclose
+any such Confidential Information to any person (except employees or
+agents on a need-to-know basis where such persons have agreed to be
+bound in writing to obligations of confidentiality at least as
+protective as the terms of this Section 7), unless such disclosure is
+authorized by the other party in writing, or (c) disclose any such
+Confidential Information required by court or judicial order without
+first informing the other party and cooperating with such other party
+if such other party shall contest such disclosure or seek a protective
+order.  The obligations of each party under this Section 7 shall not
+apply to information which (i) was generally known in the trade or
+business in which it is practiced by the receiving party at the time
+of disclosure, or becomes so generally known after such disclosure,
+through no act of the receiving party and otherwise than as a result
+of a breach of this Section; (ii) has come into the possession of the
+receiving party rightfully from a third party without obligation of
+confidentiality; (iii) was developed by the receiving party
+independently of and without reference to Confidential Information; or
+(iv) is disclosed pursuant to any legal, judicial or arbitration or
+similar legal proceeding or as required by law; provided that the
+receiving party disclosing such information uses all reasonable
+efforts to protect the information as being confidential.
 
-7.2	Notification.  Each party to this Agreement agrees to notify the other promptly and in writing of the existence of any circumstances surrounding unauthorized access, disclosure, distribution, possession, alteration, transfer, reproduction or use of Confidential Information, and in the case of Licensee, the Licensed Program Materials, or any portions thereof. 
+7.2 Notification.  Each party to this Agreement agrees to notify the
+other promptly and in writing of the existence of any circumstances
+surrounding unauthorized access, disclosure, distribution, possession,
+alteration, transfer, reproduction or use of Confidential Information,
+and in the case of Licensee, the Licensed Program Materials, or any
+portions thereof.
 
 8.	Limitation of Liability.
 
-8.1	No Consequential Damages. IN NO EVENT SHALL DATAWIRE BE LIABLE HEREUNDER FOR SPECIAL, PUNITIVE, INCIDENTAL, INDIRECT OR CONSEQUENTIAL DAMAGES, INCLUDING, BUT NOT LIMITED TO, LOSS OF PROFITS, LOSS OF REVENUE, LOSS OF USE OR LOSS OF DATA, EVEN IF ADVISED OF THE POSSIBILITY THEREOF OR, IF REASONABLY FORESEEABLE, INCURRED BY LICENSEE OR END USERS, OR CLAIMED AGAINST LICENSEE BY ANY OTHER PARTY, INCLUDING END USERS (WHETHER ANY SUCH CLAIMS ARISE UNDER THEORY OF CONTRACT, TORT OR OTHERWISE). 
+8.1 No Consequential Damages. IN NO EVENT SHALL DATAWIRE BE LIABLE
+HEREUNDER FOR SPECIAL, PUNITIVE, INCIDENTAL, INDIRECT OR CONSEQUENTIAL
+DAMAGES, INCLUDING, BUT NOT LIMITED TO, LOSS OF PROFITS, LOSS OF
+REVENUE, LOSS OF USE OR LOSS OF DATA, EVEN IF ADVISED OF THE
+POSSIBILITY THEREOF OR, IF REASONABLY FORESEEABLE, INCURRED BY
+LICENSEE OR END USERS, OR CLAIMED AGAINST LICENSEE BY ANY OTHER PARTY,
+INCLUDING END USERS (WHETHER ANY SUCH CLAIMS ARISE UNDER THEORY OF
+CONTRACT, TORT OR OTHERWISE).
 
-8.2	Limitation of Liability.  To the extent permitted by applicable law, the liability of Datawire and its licensors, personnel, subcontractors and suppliers arising out of, in connection with, or resulting from this Agreement and, without limitation, for any and all causes with respect to the Licensed Program Materials, breach of contract, tort, warranty or otherwise, shall in the aggregate not exceed the license fees paid by Licensee hereunder in the twelve (12) months immediately preceding the event giving rise to the claim.
+8.2 Limitation of Liability.  To the extent permitted by applicable
+law, the liability of Datawire and its licensors, personnel,
+subcontractors and suppliers arising out of, in connection with, or
+resulting from this Agreement and, without limitation, for any and all
+causes with respect to the Licensed Program Materials, breach of
+contract, tort, warranty or otherwise, shall in the aggregate not
+exceed the license fees paid by Licensee hereunder in the twelve (12)
+months immediately preceding the event giving rise to the claim.
 
 9.	General
 
-9.1	Waiver.  The failure of either party hereto to insist upon the strict adherence to any term of this Agreement on any occasion shall not be considered as a waiver of any right hereunder nor shall it deprive that party of the right to insist upon the strict adherence to that term or any other term of this Agreement at some other time. All waivers must be in writing and signed by the party waiving its rights.
+9.1 Waiver.  The failure of either party hereto to insist upon the
+strict adherence to any term of this Agreement on any occasion shall
+not be considered as a waiver of any right hereunder nor shall it
+deprive that party of the right to insist upon the strict adherence to
+that term or any other term of this Agreement at some other time. All
+waivers must be in writing and signed by the party waiving its rights.
 
-9.2	Agreement.  This Agreement including the Order Forms, and if applicable, the Support Agreement, constitute the sole and complete understanding between the parties hereto and supersedes any and all other prior or contemporaneous agreements, statements and documents, whether oral or written, between the parties with respect to the subject matter in this Agreement, or any applicable Support Agreement, including any and all representations or other statements made to other party except if stated herein, and including any previously executed confidentiality or non-disclosure agreement, except as to any surviving provisions thereof.  To the extent that any provision of an Order Form conflicts with a provision of this Agreement, the provision of the Order Form will govern as to any subjects covered by such Order Form.
+9.2 Agreement.  This Agreement including the Order Forms, and if
+applicable, the Support Agreement, constitute the sole and complete
+understanding between the parties hereto and supersedes any and all
+other prior or contemporaneous agreements, statements and documents,
+whether oral or written, between the parties with respect to the
+subject matter in this Agreement, or any applicable Support Agreement,
+including any and all representations or other statements made to
+other party except if stated herein, and including any previously
+executed confidentiality or non-disclosure agreement, except as to any
+surviving provisions thereof.  To the extent that any provision of an
+Order Form conflicts with a provision of this Agreement, the provision
+of the Order Form will govern as to any subjects covered by such Order
+Form.
 
-9.3	Force Majeure.  Neither party shall be liable or deemed to be in default for any delay or failure in performance under this Agreement (except for payment of money) if such delay or failure arises from any cause or causes beyond the reasonable control of such party, including acts of God, civil unrest, war, terrorism, flood or fire; provided that the party so affected shall use reasonable and diligent efforts to remove such causes of non-performance. 
+9.3 Force Majeure.  Neither party shall be liable or deemed to be in
+default for any delay or failure in performance under this Agreement
+(except for payment of money) if such delay or failure arises from any
+cause or causes beyond the reasonable control of such party, including
+acts of God, civil unrest, war, terrorism, flood or fire; provided
+that the party so affected shall use reasonable and diligent efforts
+to remove such causes of non-performance.
 
-9.4	Assignment.  Licensee shall not directly or indirectly sell, transfer, assign or delegate this Agreement, or any rights or obligations hereunder, in each case voluntarily, involuntarily, by operation of law or otherwise, without Datawire’s prior written consent.  For purposes of the preceding sentence, and without limiting its generality, any merger, consolidation or reorganization of Licensee (regardless of whether Licensee is a surviving or disappearing entity) will be deemed to be a transfer of rights, obligations or performance under this Agreement for which Datawire’s prior written consent is required.  Any purported assignment, delegation or transfer in violation of this Section 9.4 is void.  This Agreement is binding upon and inures to the benefit of the parties and their respective permitted successors and assigns.
+9.4 Assignment.  Licensee shall not directly or indirectly sell,
+transfer, assign or delegate this Agreement, or any rights or
+obligations hereunder, in each case voluntarily, involuntarily, by
+operation of law or otherwise, without Datawire’s prior written
+consent.  For purposes of the preceding sentence, and without limiting
+its generality, any merger, consolidation or reorganization of
+Licensee (regardless of whether Licensee is a surviving or
+disappearing entity) will be deemed to be a transfer of rights,
+obligations or performance under this Agreement for which Datawire’s
+prior written consent is required.  Any purported assignment,
+delegation or transfer in violation of this Section 9.4 is void.  This
+Agreement is binding upon and inures to the benefit of the parties and
+their respective permitted successors and assigns.
 
-9.5	Relationship of the Parties.  The Licensee and Datawire are acting hereunder as independent contractors; under no circumstances shall the employees of one party be deemed to be the employees or agents of the other.
+9.5 Relationship of the Parties.  The Licensee and Datawire are acting
+hereunder as independent contractors; under no circumstances shall the
+employees of one party be deemed to be the employees or agents of the
+other.
 
-9.6	Amendments.  Datawire reserves the right, at its sole discretion, to modify or replace this Agreement at any time.  If a revision is material, Datawire will provide not less than thirty (30) days’ notice prior to any new terms taking effect.  By continuing to access or use the Licensed Software after any revisions become effective, you agree to be bound by the revised terms. 
+9.6 Amendments.  Datawire reserves the right, at its sole discretion,
+to modify or replace this Agreement at any time.  If a revision is
+material, Datawire will provide not less than thirty (30) days’ notice
+prior to any new terms taking effect.  By continuing to access or use
+the Licensed Software after any revisions become effective, you agree
+to be bound by the revised terms.
 
-9.7	Governing Law; Other Countries and Laws.  Any claims or legal actions by one party against the other arising out of the relationship between the parties contemplated herein (whether or not arising under this Agreement) shall be governed by the laws of the Commonwealth of Massachusetts, excluding the issue of choice of law, and shall be commenced and maintained only in a state or federal court located in the city of Boston or Suffolk County, and each party hereto hereby consents and submits to the jurisdiction and venue of any such court, even if such party is not a U.S. citizen or does not reside in the U.S.  Specifically excluded from application to this Agreement is that law known as the United Nations Convention on the International Sale of Goods.
-9.8	Severability.  If any provision of this Agreement shall be held by a court of law of competent jurisdiction to be illegal, invalid or unenforceable, that provision shall be reformed, construed and enforced to the maximum extent permissible, and the remaining provisions shall remain in full force and effect. 
+9.7 Governing Law; Other Countries and Laws.  Any claims or legal
+actions by one party against the other arising out of the relationship
+between the parties contemplated herein (whether or not arising under
+this Agreement) shall be governed by the laws of the Commonwealth of
+Massachusetts, excluding the issue of choice of law, and shall be
+commenced and maintained only in a state or federal court located in
+the city of Boston or Suffolk County, and each party hereto hereby
+consents and submits to the jurisdiction and venue of any such court,
+even if such party is not a U.S. citizen or does not reside in the
+U.S.  Specifically excluded from application to this Agreement is that
+law known as the United Nations Convention on the International Sale
+of Goods.  9.8 Severability.  If any provision of this Agreement shall
+be held by a court of law of competent jurisdiction to be illegal,
+invalid or unenforceable, that provision shall be reformed, construed
+and enforced to the maximum extent permissible, and the remaining
+provisions shall remain in full force and effect.
 
-9.9	Export Control.  Licensee acknowledges that it is subject to United States laws and regulations controlling the export of technical data, computer software and other commodities and agrees not to export or allow the export or re-export of such data, software or other commodities in violation of such laws and regulations. 
+9.9 Export Control.  Licensee acknowledges that it is subject to
+United States laws and regulations controlling the export of technical
+data, computer software and other commodities and agrees not to export
+or allow the export or re-export of such data, software or other
+commodities in violation of such laws and regulations.
 
-9.10	Notice.  Any notice or other communication under this Agreement will have legal effect only and in writing and addressed to the other party as follows: 
+9.10 Notice.  Any notice or other communication under this Agreement
+will have legal effect only and in writing and addressed to the other
+party as follows:
 	
 	If to Datawire: 	Datawire, Inc.
-745 Atlantic Ave
+	      		        745 Atlantic Ave
 				Boston, MA 02111
 				Attention: LEGAL DEPARTMENT
 
 				With a copy by email to:  support@datawire.io
 
-If to Licensee: 	Your email furnished upon registration.  In case of a change in email, it is your sole responsibility to notify Datawire of your new contact details.
+If to Licensee: Your email furnished upon registration.  In case of a
+change in email, it is your sole responsibility to notify Datawire of
+your new contact details.
 
 9.11.	Definitions.  The following terms and expressions shall have the following meaning: 
 
-	(a) 	“Confidential Information” shall mean all information designated or identified in writing as confidential or proprietary by the disclosing party within 15 days of its disclosure to the receiving party (provided that information which is orally or visually disclosed to the receiving party by the disclosing party without being designated as such in writing shall constitute Confidential Information if it would be apparent to a reasonable person that such information is of a confidential or proprietary nature the maintenance of which is important to the disclosing party).  Confidential Information shall include without limitation each party’s data, designs, drawings, documentation, software (regardless of form or media), prototypes, processes, methods, concepts, research and development activities.  Confidential Information shall also include without limitation all of Datawire’s information contained or embodied in the Licensed Program Materials and all confidential information conveyed to the Licensee in the course of its performance of this Agreement. 
+	(a) “Confidential Information” shall mean all information
+	designated or identified in writing as confidential or
+	proprietary by the disclosing party within 15 days of its
+	disclosure to the receiving party (provided that information
+	which is orally or visually disclosed to the receiving party
+	by the disclosing party without being designated as such in
+	writing shall constitute Confidential Information if it would
+	be apparent to a reasonable person that such information is of
+	a confidential or proprietary nature the maintenance of which
+	is important to the disclosing party).  Confidential
+	Information shall include without limitation each party’s
+	data, designs, drawings, documentation, software (regardless
+	of form or media), prototypes, processes, methods, concepts,
+	research and development activities.  Confidential Information
+	shall also include without limitation all of Datawire’s
+	information contained or embodied in the Licensed Program
+	Materials and all confidential information conveyed to the
+	Licensee in the course of its performance of this Agreement.
 
-	(b)	“Critical Issue” means that an error in the Licensed Software has occurred and which is affecting production installation such that the Licensed Software is completely unusable to Licensee and work has come to a standstill.
+	(b) “Documentation” shall mean any and all manuals,
+	instructions, specifications and other documents and materials
+	that Datawire provides or makes available to Licensee in any
+	medium and which describe the functionality, components,
+	features or requirements of the Licensed Software, including
+	any one or more of the installation, configuration,
+	integration, operation, use, support or maintenance thereof.
 
-	(c)	“Documentation” shall mean any and all manuals, instructions, specifications and other documents and materials that Datawire provides or makes available to Licensee in any medium and which describe the functionality, components, features or requirements of the Licensed Software, including any one or more of the installation, configuration, integration, operation, use, support or maintenance thereof. 
+	(c) “Intellectual Property Rights” shall mean the worldwide
+	intangible legal rights or interests evidenced by or embodied
+	in (i) any idea, design, concept, method, process, technique,
+	apparatus, invention, discovery, or improvement, including any
+	patents, patent applications, trade secrets, and know-how;
+	(ii) any work of authorship, including any copyrights,
+	industrial designs, registration or moral rights recognized by
+	law, (iii) any trademarks, trade names, trade dress and
+	associated goodwill, and (iv) any other proprietary technology
+	or material in which similar rights exist.
 
-	(d)	“Intellectual Property Rights” shall mean the worldwide intangible legal rights or interests evidenced by or embodied in (i) any idea, design, concept, method, process, technique, apparatus, invention, discovery, or improvement, including any patents, patent applications, trade secrets, and know-how; (ii) any work of authorship, including any copyrights, industrial designs, registration or moral rights recognized by law, (iii) any trademarks, trade names, trade dress and associated goodwill, and (iv) any other proprietary technology or material in which similar rights exist.
+	(d) “End Users” shall mean those employee individuals
+	authorized by Licensee to have access to the Licensed Program
+	Materials for the internal business purposes of Licensee.
 
-	(e)	“End Users” shall mean those employee individuals authorized by Licensee to have access to the Licensed Program Materials for the internal business purposes of Licensee. 
+	(e) “Licensed Program Materials” shall mean the Licensed
+	Software and the Documentation.
 
-	(f)	“Licensed Program Materials” shall mean the Licensed Software and the Documentation. 
+	(f) “Licensed Software” shall mean the computer programs of
+	Datawire, in machine-readable object code form only, licensed
+	to Licensee and identified on the Order Form and delivered by
+	Datawire.  Licensed Software includes all Third Party Software
+	embedded in, bundled with or otherwise provided to the End
+	User as part of the Licensed Software of Datawire licensed
+	under this Agreement including, without limitation, that under
+	the Apache License.
 
-	(g)	“Licensed Software” shall mean the computer programs of Datawire, in machine-readable object code form only, licensed to Licensee and identified on the Order Form and delivered by Datawire.  Licensed Software includes all Third Party Software embedded in, bundled with or otherwise provided to the End User as part of the Licensed Software of Datawire licensed under this Agreement including, without limitation, that under the Apache License.  
-
-	(h)  	"Order Form" means Datawire's global order form or other Datawire ordering document, including a signed quote, which is entered into between you and Datawire and identifies the Software ordered by you, including the license type, quantity, access information and any other restrictions or use limitations. Order Forms shall reference this Agreement and be deemed incorporated herein by reference.
+	(g) "Order Form" means Datawire's global order form or other
+	Datawire ordering document, including a signed quote, which is
+	entered into between you and Datawire and identifies the
+	Software ordered by you, including the license type, quantity,
+	access information and any other restrictions or use
+	limitations. Order Forms shall reference this Agreement and be
+	deemed incorporated herein by reference.
     
-	(i)	“Update” shall mean any and all updates, bug fixes and, work-arounds, if any, in object code form only, not included in the Licensed Software at the time of installation and that are generally made available by Datawire to its licensees at no additional charge.   Updates are included as part of the Licensed Software. 
+	(h) “Update” shall mean any and all updates, bug fixes and,
+	work-arounds, if any, in object code form only, not included
+	in the Licensed Software at the time of installation and that
+	are generally made available by Datawire to its licensees at
+	no additional charge.  Updates are included as part of the
+	Licensed Software.
 
-	(j)	“Upgrades” shall mean significant and material function and feature enhancements, to include compilations of previously released Updates, in object code form only, not included in the Licensed Software at the time of installation, and that are generally made commercially available in the form of a major new version release (e.g., v2, v3, etc.) for an additional fee.  Upgrades are not included as part of the Licensed Software.
- 
+	(i) “Upgrades” shall mean significant and material function
+	and feature enhancements, to include compilations of
+	previously released Updates, in object code form only, not
+	included in the Licensed Software at the time of installation,
+	and that are generally made commercially available in the form
+	of a major new version release (e.g., v2, v3, etc.) for an
+	additional fee.  Upgrades are not included as part of the
+	Licensed Software.   
